@@ -126,6 +126,42 @@ pnpm build
 pnpm preview
 ```
 
+## Deployment to GitHub Pages
+
+### Prerequisites
+
+- Push to the `main` branch (CI/CD runs automatically)
+- GitHub Pages enabled in repository settings (`Settings > Pages > Source: GitHub Actions`)
+
+### Manual Deploy
+
+```bash
+gh run trigger deploy.yml
+```
+
+Or use the GitHub Actions workflow directly:
+
+```bash
+gh workflow run deploy.yml
+```
+
+### Build Output
+
+The app is deployed as a subdirectory on GitHub Pages:
+- **URL**: `https://muhammad-yunus.github.io/Cellular-Discovery-Device-Manager/`
+- **Build command**: `pnpm build`
+- **Output directory**: `.output/public/`
+
+### GitHub Actions Workflow
+
+Automated deployment runs on every push to `main`:
+1. Install dependencies (`pnpm install`)
+2. Run type checks (`pnpm typecheck`)
+3. Run linter (`pnpm lint`)
+4. Build for production (`pnpm build`)
+5. Upload GitHub Pages artifact
+6. Deploy to `muhammad-yunus.github.io/Cellular-Discovery-Device-Manager/`
+
 ## License
 
 MIT License - see [LICENSE](LICENSE) file for details.
