@@ -25,6 +25,13 @@ This application helps you discover and manage these RF monitoring devices acros
   </a>
 </p>
 
+<p align="center">
+  <a href="https://muhammad-yunus.github.io/Cellular-Discovery-Device-Manager/" target="_blank" style="display: inline-flex; align-items: center; gap: 10px; padding: 12px 28px; background: #1e293b; color: #38bdf8; text-decoration: none; border-radius: 8px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 600; border: 2px solid #38bdf8; transition: all 0.2s ease;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+    Go to Passive RF Device Manager
+  </a>
+</p>
+
 ## Project Structure
 
 ```
