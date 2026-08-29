@@ -20,13 +20,13 @@ export default defineNuxtConfig({
     '/devices': { ssr: false }
   },
 
+  compatibilityDate: '2026-06-30',
+
   nitro: {
     prerender: {
       crawlLinks: true
     }
   },
-
-  compatibilityDate: '2026-06-30',
 
   eslint: {
     config: {
