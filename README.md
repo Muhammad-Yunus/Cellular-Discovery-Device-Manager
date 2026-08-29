@@ -21,7 +21,7 @@ This application helps you discover and manage these RF monitoring devices acros
 
 <p align="center">
   <a href="https://muhammad-yunus.github.io/Cellular-Discovery-Device-Manager/" target="_blank">
-    <img src="https://img.shields.io/badge/Go_to_Passive_RF_Device_Manager-00DC82?style=for-the-badge&logo=nuxt&logoColor=white&labelColor=020420" alt="Deploy to GitHub Pages">
+    <img src="https://img.shields.io/badge/Go_to_Passive_RF_Device_Manager-1e293b?style=for-the-badge&logo=lucide&logoColor=38bdf8&labelColor=1e293b&color=38bdf8" alt="Deploy to GitHub Pages">
   </a>
 </p>
 
