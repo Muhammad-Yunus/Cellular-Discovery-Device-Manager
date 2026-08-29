@@ -11,7 +11,12 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: '/Cellular-Discovery-Device-Manager/'
+    baseURL: '/Cellular-Discovery-Device-Manager/',
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/Cellular-Discovery-Device-Manager/favicon.svg' }
+      ]
+    }
   },
 
   css: ['~/assets/css/main.css'],
