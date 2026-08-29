@@ -44,6 +44,20 @@ export default defineNuxtConfig({
   },
 
   icon: {
-    serverBundle: false
+    serverBundle: false,
+    clientBundle: {
+      icons: [
+        'lucide:home',
+        'lucide:router',
+        'lucide:radio-tower',
+        'lucide:refresh-cw',
+        'lucide:play',
+        'lucide:search-x',
+        'lucide:network',
+        'lucide:arrow-right',
+        'lucide:menu',
+        'lucide:info'
+      ]
+    }
   }
 })
