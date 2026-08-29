@@ -9,6 +9,10 @@ export default defineNuxtConfig({
     enabled: true
   },
 
+  app: {
+    baseURL: '/Cellular-Discovery-Device-Manager/'
+  },
+
   css: ['~/assets/css/main.css'],
 
   routeRules: {
