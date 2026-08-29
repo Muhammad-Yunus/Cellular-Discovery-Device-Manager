@@ -1,0 +1,56 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Icons & Assets
+*.ico
+*.jpg
+*.jpeg
+*.gif
+*.svg
+# Public assets - explicitly include
+!public/
+!public/favicon.*
+# App assets
+!app/assets/banner-diagram.png
+# Docs screenshots
+!docs/
+!docs/*.png
+
+# IDE
+.vscode
+.idea
+.fleet
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Pnpm store
+.pnpm-store
+
+# Nuxt UI theme config (optional, can be committed)
+# app/app.config.ts
